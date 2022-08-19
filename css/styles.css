@@ -1,0 +1,77 @@
+/*font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;*/
+
+body {
+	background-color: rgb(243, 234, 227);
+	display: table;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+html {
+	height: 100%;
+}
+
+.cart-btn {
+	display: block;
+}
+
+.center-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.previous-price {
+	color: rgb(100, 100, 100);
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .8rem;
+	position: relative;
+	bottom: 0.4rem;
+	text-decoration: line-through;
+}
+
+.pre-title {
+	color: rgb(100, 100, 100);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.75rem;
+	font-weight: normal;
+	letter-spacing: .35rem;
+}
+
+.product-descript-div {
+	background-color: white;
+	display: inline-block;
+	font-size: 1rem;
+	text-align: left;
+	width: 21.25%;
+}
+
+.product-img {
+	width: 21.25%;
+}
+
+.product-para {
+	color: rgb(100, 100, 100);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	line-height: 1.5;
+
+}
+
+.product-title {
+	font-family: 'Fraunces', serif;
+	line-height: 1;
+
+}
+
+.retail-price {
+	color: rgb(57, 130, 103);
+	display: inline-block;
+	font-family: 'Fraunces', serif;
+}
+
+.subbody {
+	font-size: 0;		/*Trick to remove space between two inline-block elements*/
+}
