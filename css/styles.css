@@ -1,10 +1,8 @@
-/*font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif;*/
-
 body {
-	background-color: rgb(243, 234, 227);
+	background-color: hsl(30, 38%, 92%);
 	display: table;
 	height: 100%;
+	width: 100%;
 	margin: 0;
 	text-align: center;
 }
@@ -14,7 +12,33 @@ html {
 }
 
 .cart-btn {
+	background: hsl(158, 36%, 37%);
+	border-radius: 10px;
+	color: #ffffff;
 	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 12px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.cart-btn:hover {
+  background: rgb(26, 64, 49);
+  text-decoration: none;
+}
+
+.cart-logo {
+	color: white;
+	height: 1.2rem;
+	position: relative;
+	top: 2px;
+	padding-right: 10px;
+}
+
+.cart-txt {
+	position: relative;
+	bottom: 3px;
 }
 
 .center-container {
@@ -23,55 +47,66 @@ html {
 }
 
 .previous-price {
-	color: rgb(100, 100, 100);
+	color: hsl(228, 12%, 48%);
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-size: .8rem;
+	margin-left: 15px;
 	position: relative;
-	bottom: 0.4rem;
+	bottom: 7px;
 	text-decoration: line-through;
 }
 
 .pre-title {
-	color: rgb(100, 100, 100);
+	color: hsl(228, 12%, 48%);
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.75rem;
 	font-weight: normal;
 	letter-spacing: .35rem;
+	margin-top: 30px;
 }
 
 .product-descript-div {
 	background-color: white;
+	border-radius: 0 10px 10px 0;
 	display: inline-block;
 	font-size: 1rem;
 	text-align: left;
-	width: 21.25%;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 450px;
+	width: 240px;
+	vertical-align: top;
 }
 
 .product-img {
-	width: 21.25%;
+	border-radius: 10px 0 0 10px;
+	width: 300px;
 }
 
 .product-para {
-	color: rgb(100, 100, 100);
+	color: hsl(228, 12%, 48%);
 	font-family: 'Montserrat', sans-serif;
-	font-size: 0.9rem;
+	font-size: 14px;
 	line-height: 1.5;
 
 }
 
 .product-title {
+	color: hsl(212, 21%, 14%);
 	font-family: 'Fraunces', serif;
 	line-height: 1;
 
 }
 
 .retail-price {
-	color: rgb(57, 130, 103);
+	color: hsl(158, 36%, 37%);
 	display: inline-block;
 	font-family: 'Fraunces', serif;
 }
 
 .subbody {
 	font-size: 0;		/*Trick to remove space between two inline-block elements*/
+	margin: auto;
+	width: 600px;
 }
